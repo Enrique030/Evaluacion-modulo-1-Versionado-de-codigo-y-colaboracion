@@ -1,0 +1,11 @@
+name: Demo Workflow
+
+on:
+  workflow_dispatch:
+
+jobs:
+  say_name:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Say my name
+        run: echo "Mi nombre es Enrique Cogolludo Fernández"
